@@ -1,0 +1,203 @@
+.html {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-color: bisque;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.clock {
+  height: 300px;
+  width: 35%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.col {
+  color: greenyellow;
+}
+.time {
+  height: 50%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.dot {
+  height: 70%;
+  width: 1%;
+  background-color: black;
+}
+#hour-div {
+  height: 70%;
+  width: 20%;
+  color: greenyellow;
+  border: 5px solid greenyellow;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 40px;
+  font-weight: bold;
+}
+#mnt-div {
+  height: 70%;
+  width: 20%;
+  align-items: center;
+  color: greenyellow;
+  border: 5px solid greenyellow;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 40px;
+  font-weight: bold;
+}
+#sec-div {
+  height: 70%;
+  width: 20%;
+  align-items: center;
+  color: greenyellow;
+  border: 5px solid greenyellow;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 40px;
+  font-weight: bold;
+}
+#am-pm1 {
+  height: 70%;
+  width: 20%;
+  align-items: center;
+  color: greenyellow;
+  border: 5px solid greenyellow;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.alarm {
+  width: 50%;
+  height: 300px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.set {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.alarm-div {
+  height: 30%;
+  margin-top: -35px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: greenyellow;
+  font-weight: bold;
+}
+#setb {
+  height: 50px;
+  width: 110px;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+  border: 5px solid greenyellow;
+  background-color: black;
+  color: greenyellow;
+  margin-bottom: 10px;
+}
+#s-hour {
+  width: 55px;
+  height: 30px;
+}
+.h1 {
+  color: greenyellow;
+  margin-top: -5px;
+}
+
+#s-mnt {
+  width: 55px;
+  height: 30px;
+}
+
+#s-sec {
+  width: 55px;
+  height: 30px;
+}
+#am-pm {
+  width: 55px;
+  height: 30px;
+  color: black;
+}
+.format {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+.view {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  width: 130px;
+  height: 120px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border: 5px solid greenyellow;
+}
+.name {
+  margin-top: -10px;
+  color: greenyellow;
+}
+#settime {
+  margin-top: -30px;
+  font-weight: bold;
+  font-size: larger;
+  text-transform: uppercase;
+  color: greenyellow;
+}
+h4 {
+  color: greenyellow;
+}
+#stop {
+  height: 50px;
+  width: 120px;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 5px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  color: greenyellow;
+  background-color: black;
+  border: 5px solid greenyellow;
+  text-transform: uppercase;
+}

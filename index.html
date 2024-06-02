@@ -1,14 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="clock">
+        <h1 class="col">DIGITAL CLOCK</h1>
+        <div class="time">
+          <div id="hour-div">
+            <span id="hour">11</span>
+          </div>
+          <div class="dot"></div>
+          <div id="mnt-div">
+            <span id="mnt">59</span>
+          </div>
+          <div class="dot"></div>
+          <div id="sec-div">
+            <span id="sec">45</span>
+          </div>
+          <div class="dot"></div>
+          <div id="am-pm1">
+            <span id="am-pm-l">PM</span>
+          </div>
+        </div>
+      </div>
 
+      <div class="alarm">
+        <div class="set">
+          <h1 class="h1">SET ALARM</h1>
+          <div class="alarm-div">
+            <div class="format">
+                <label for="s-hour">Hour</label>
+                <input type="text" id="s-hour"> 
+            </div>
+            <div class="format">
+                <label for="s-mnt">Minute</label>
+                <input type="text" id="s-mnt"> 
+            </div>
+            <div class="format">
+                <label for="s-sec">Second</label>
+                <input type="text" id="s-sec">
+            </div>
+            <div class="format">
+              <label for="am-pm">Am/Pm</label>
+              <input type="text" id="am-pm">
+          </div>
+        
+          </div>
+          <button id="setb">SET</button>
+        </div>
 
-<script src="index.js"></script> 
-</body>
+       <div class="view">
+        <img src="images__3_-removebg-preview.png" alt="" >
+        <h4 id="name"></h4>
+        <div id="settime"></div>
+
+        <button id="stop">No Alarm</button>
+
+       </div>
+
+    </div>
+
+    <script src="index.js"></script>
+  </body>
 </html>
